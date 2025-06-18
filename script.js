@@ -1,6 +1,5 @@
-@@ -1,202 +1,202 @@
 // Corazones flotantes
-function createHeart() {Add commentMore actions
+function createHeart() {
   const heart = document.createElement('div');
   heart.className = 'floating-heart';
   heart.style.left = Math.random() * 100 + 'vw';
@@ -200,4 +199,4 @@ window.addEventListener('DOMContentLoaded', () => {
       };
     };
   }
-});
+}); 
